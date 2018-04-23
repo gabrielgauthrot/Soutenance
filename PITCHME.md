@@ -1,5 +1,4 @@
-@title[Introduction]
-# Constellation
+# Black
 
 ### A GitPitch Presentation Template
 
@@ -20,8 +19,8 @@
 - Code Presenting |
 - Repo Source, Static Blocks, GIST |
 - Custom CSS Styling |
-- Slideshow Background Images |
-- Background Image Scaling |
+- Slideshow Background Image |
+- Slide-specific Background Images |
 - Custom Logo, TOC, and Footnotes |
 
 ---?code=sample/go/server.go&lang=golang&title=Golang File
@@ -69,10 +68,6 @@ http.createServer(function (request, response) {
 @[41-53](GIST source code is beautifully rendered on any slide.)
 @[57-62](And code-presenting works seamlessly for GIST too, both online and offline.)
 
----?image=assets/image/snowscape.jpg&size=auto 80%&color=#2d0630
-
-<!-- Sample slide background image scaling and custom color fill -->
-
 ---
 
 ## Template Help
@@ -80,13 +75,13 @@ http.createServer(function (request, response) {
 - [Code Presenting](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting)
   + [Repo Source](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides), [Static Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides), [GIST](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides) 
 - [Custom CSS Styling](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Custom-CSS)
-- [Slideshow Background Images](https://github.com/gitpitch/gitpitch/wiki/Background-Setting)
-- [Background Image Scaling](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#scaling)
-- [Custom Logo](https://github.com/gitpitch/gitpitch/wiki/Logo-Setting), [TOC](https://github.com/gitpitch/gitpitch/wiki/Table-of-Contents), and [Footnotes](https://github.com/gitpitch/gitpitch/wiki/Footnote-Setting)
+- [Slideshow Background Image](https://github.com/gitpitch/gitpitch/wiki/Background-Setting)
+- [Slide-specific Background Images](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background)
+- [Custom Logo](https://github.com/gitpitch/gitpitch/wiki/Logo-Setting) [TOC](https://github.com/gitpitch/gitpitch/wiki/Table-of-Contents) [Footnotes](https://github.com/gitpitch/gitpitch/wiki/Footnote-Setting)
 
 ---
 
-## GitPitch Pro Features
+## Go GitPitch Pro!
 
 <br>
 <div class="left">
@@ -116,10 +111,10 @@ http.createServer(function (request, response) {
 
 @fa[medium gp-contact](@gitpitch)
 
----?image=assets/image/gitpitch-audience.jpg
+---?image=assets/image/gitpitch-audience.jpg&opacity=100
 
 @title[Download this Template!]
 
-### <span class="white">Get your presentation started!</span>
-### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/constellation)
+### Get your presentation started!
+### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/black)
 
